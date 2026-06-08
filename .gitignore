@@ -1,0 +1,44 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Logs
+*.log
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Java
+*.class
+
+# Test Reports
+test-output/
+surefire-reports/
+allure-results/
+allure-report/
+
+# Screenshots
+screenshots/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+
+# Temporary Files
+*.tmp
+*.temp
