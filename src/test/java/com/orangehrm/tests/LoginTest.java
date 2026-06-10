@@ -19,8 +19,6 @@ public class LoginTest extends BaseTest{
 //	  LoginPage loginPage = new LoginPage(driver);
 //	  Thread.sleep(2000);
 //	  loginPage.login("Admin", "admin123");
-//	  
-//	  
 //  driver.quit();
 	  
 	  Thread.sleep(3000);
