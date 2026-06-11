@@ -18,7 +18,6 @@ public class LoginPage extends BasePage{
 	By password = By.name("password");
 	By loginButton = By.xpath("//button[@type='submit']");
 	
-	
 	public void login (String user, String pass)
 	{
 //		driver.findElement(username).sendKeys(user);
