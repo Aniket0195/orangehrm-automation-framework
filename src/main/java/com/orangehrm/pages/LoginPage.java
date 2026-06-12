@@ -28,4 +28,6 @@ public class LoginPage extends BasePage{
 		type(driver.findElement(password),pass);
 		click(driver.findElement(loginButton));
 	}
+	
+	
 }

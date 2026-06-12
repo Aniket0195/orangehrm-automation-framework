@@ -1,5 +1,7 @@
 package com.orangehrm.tests;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -26,5 +28,12 @@ public class LoginTest extends BaseTest{
 	  LoginPage loginPage = new LoginPage(driver);
 	  loginPage.login("Admin", "admin123");
 	  
+	  try {
+		    Alert alert = driver.switchTo().alert();
+		    System.out.println(alert.getText());
+		    alert.accept();
+		} catch (NoAlertPresentException e) {
+		    System.out.println("No Alert Present");
+		}
   }
 }
