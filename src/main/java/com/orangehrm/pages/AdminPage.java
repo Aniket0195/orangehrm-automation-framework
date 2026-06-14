@@ -10,7 +10,7 @@ public class AdminPage extends BasePage{
 	{
 		super(driver);
 	}
-	
+	// Issue #1 Fix
 	By adminMenu = By.xpath("//span[text()='Admin']");
 	//By userName = By.cssSelector("input.oxd-input");
 	//By userName = By.className("oxd-input oxd-input--active");
