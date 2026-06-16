@@ -19,12 +19,12 @@ public class AdminTest extends BaseTest{
 		adminPage.clickAdminMenu();
 		Thread.sleep(3000);
 		
-		adminPage.enterUsername("Admin");
+		adminPage.enterUsername("ravi123");
 		Thread.sleep(3000);
 		
 		adminPage.clickAdminMenu();
 		Thread.sleep(3000);
-		adminPage.enterEmployeeName("Shyam");
+		adminPage.enterEmployeeName("Ravi M B");
 		Thread.sleep(3000);
 		adminPage.selectUserRole("Admin");
 	}
