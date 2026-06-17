@@ -22,6 +22,8 @@ public class AdminTest extends BaseTest{
 		adminPage.enterUsername("ravi123");
 		Thread.sleep(3000);
 		
+		
+		
 		adminPage.clickAdminMenu();
 		Thread.sleep(3000);
 		adminPage.enterEmployeeName("Ravi M B");
