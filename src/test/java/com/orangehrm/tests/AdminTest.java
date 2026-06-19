@@ -6,6 +6,7 @@ import com.orangehrm.base.BaseTest;
 import com.orangehrm.pages.AdminPage;
 import com.orangehrm.pages.LoginPage;
 
+
 public class AdminTest extends BaseTest{
  
 	@Test
@@ -19,16 +20,18 @@ public class AdminTest extends BaseTest{
 		adminPage.clickAdminMenu();
 		Thread.sleep(3000);
 		
-		adminPage.enterUsername("ravi123");
+		adminPage.enterUsername("MSDhoni");
 		Thread.sleep(3000);
-		
-		
-		
 		adminPage.clickAdminMenu();
 		Thread.sleep(3000);
-		adminPage.enterEmployeeName("Ravi M B");
+		adminPage.selectUserRole("ESS");
 		Thread.sleep(3000);
-		adminPage.selectUserRole("Admin");
+		adminPage.enterEmployeeName("Mahendra Singh Dhoni");
+		Thread.sleep(3000);
+		adminPage.selectStatus("Enabled");
+	
+		adminPage.clickSearchButton();
+		Thread.sleep(3000);
 	}
 	
 	
